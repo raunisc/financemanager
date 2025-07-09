@@ -75,10 +75,6 @@ class FinanceManager {
             this.showModal('billModal');
         });
 
-        // Add stock button (placeholder for future functionality)
-        document.getElementById('addStockBtn').addEventListener('click', () => {
-            this.showNotification('Funcionalidade em desenvolvimento!', 'info');
-        });
 
         document.getElementById('closeTransactionModal').addEventListener('click', () => {
             this.hideModal('transactionModal');
