@@ -5,7 +5,7 @@ class FinanceManager {
         this.bills = [];
         this.categories = {
             income: ['Salário', 'Freelance', 'Vendas', 'Investimentos', 'Outros'],
-            expense: ['Alimentação', 'Transporte', 'Moradia', 'Saúde', 'Educação', 'Lazer', 'Cartão de Crédito', 'Outros']
+            expense: ['Empresa', 'Alimentação', 'Transporte', 'Moradia', 'Saúde', 'Educação', 'Lazer', 'Cartão de Crédito', 'Outros']
         };
         
         this.currentPage = 'dashboard';
